@@ -16,17 +16,15 @@ export class CandidatesComponent implements OnInit {
     {name: 'Champ', data: {age: 9, mass: '36 kg', sidekick: 'Carly'}, image: 'assets/images/Carly.png'}
   ];
 
+  
   crew = [];
 
   constructor() { }
 
-  ngOnInit() {
-  }
+  ngOnInit() 
 
   // Code the addToCrew function here:
 
 
   // BONUS: Code the changeMissionName function here:
-
-
 }
